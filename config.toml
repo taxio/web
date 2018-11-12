@@ -1,0 +1,26 @@
+baseurl = "https://www.taxio.me/"
+canonifyurls = true
+title = "taxio.me"
+theme = "hugo-theme-nix"
+languageCode = "en-us"
+nocomments = true
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "https://taxio.hatenablog.com/"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
+
+[params]
+  GithubID = "taxio"
+  TwitterID = "taxio_tech"
+  Name = "Taxio"
+  HeaderUsername = "taxio"
+  HeaderHostname = "taxio"
+  About = "WIP"
+  ProfilePicture = "/taxio.JPG"
+
